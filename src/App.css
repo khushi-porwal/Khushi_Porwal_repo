@@ -1,0 +1,145 @@
+/* Global styles for the Quiz App */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4a90e2, #56ccf2); /* Updated deeper blue gradient */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Welcome Page Styling */
+.home-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+}
+
+.bg-blue-100 {
+  background-color: rgba(255, 255, 255, 0.9); /* Light transparent white */
+  padding: 50px;
+  border-radius: 12px;
+}
+
+/* Enlarged Input Field */
+input {
+  padding: 14px;
+  font-size: 1.3rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+button, .start-button, .bg-blue-500 {
+  padding: 14px 30px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+button:hover, .hover\:bg-blue-700:hover {
+  background-color: #0056b3;
+}
+
+/* Quiz Page Styling */
+.quiz-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  text-align: center;
+}
+
+/* Timer Styling */
+.timer {
+  font-size: 1.5rem;
+  color: red;
+  font-weight: bold;
+}
+
+/* Question Styling */
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Options Styling */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease-in-out;
+  margin: 5px;
+}
+
+.option:hover {
+  background-color: #e0e0e0;
+}
+
+.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Feedback Styling */
+.feedback {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.feedback.correct {
+  color: green;
+}
+
+.feedback.incorrect {
+  color: red;
+}
+
+.feedback.unattempted {
+  color: orange;
+}
+
+/* Result Page Styling */
+.result-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+}
+
+.bg-gray-100 {
+  background-color: rgba(255, 255, 255, 0.9); /* Light transparent white */
+  padding: 50px;
+  border-radius: 12px;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
